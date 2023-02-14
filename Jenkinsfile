@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('git_clone'){
             steps{
-                git branch: 'main', url: 'https://github.com/vsk2408/spring-boot-docker-app.git'
+                git branch: 'main', url: 'https://github.com/morampudi123/springboot.git'
             }
         }
         stage('build'){
