@@ -1,5 +1,5 @@
 ---
-- hosts: windows_server
+- hosts: windows server1
   tasks:
     - name: Copy the tar file into Windows server
       copy:
